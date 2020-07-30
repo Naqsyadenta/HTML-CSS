@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+}
+
+.content {
+  margin-top: 2%;
+}
+
+body {
+  background-image: url("../Images/matahari.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+}
+header {
+  margin-top: 2%;
+}
+header img {
+  width: 120px;
+  float: left;
+}
+
+header h1 {
+  margin-left: 12%;
+}
+
+h2 {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+nav {
+  clear: both;
+}
+
+nav ul {
+  margin-top: 10%;
+}
+
+section {
+  margin-top: 2%;
+}
+
+section p {
+  margin-top: 2%;
+}
+
+section h2 {
+  margin-top: 2%;
+}
+
+section fieldset {
+  margin-top: 1%;
+}
+
+footer {
+  margin: 3%;
+  text-align: center;
+}
+
+#paragraf {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.huruf {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.kontak {
+  margin-top: 0px;
+}
+
+ul {
+  font-family: Arial, Helvetica, sans-serif;
+  background: navy;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+ul li {
+  color: #fff;
+  background: navy;
+  display: inline-block;
+  border: 1px blue;
+  padding: 10px;
+  position: relative;
+  text-decoration: none;
+}
+
+ul li a {
+  color: #fff;
+}
+
+ul li:hover {
+  background: cornflowerblue;
+  cursor: pointer;
+}
+
+ul li ul {
+  background: navy;
+  visibility: hidden;
+  position: absolute;
+  margin-top: 0.5rem;
+  left: 0;
+  display: none;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  display: block;
+}
+
+ul li ul li {
+  clear: both;
+  width: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    background: lightskyblue;
+  }
+}
